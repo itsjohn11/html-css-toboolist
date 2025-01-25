@@ -29,6 +29,10 @@ ul {
 .circle {
     background-color: white;
     color: green;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 20%;
 }
 
 .cta-button {
@@ -60,15 +64,30 @@ ul {
 
 .editorial {
     background-color: blue;
-
 }
 
 .q1goals {
-    background-color: viola; 
-   
+    background-color: violet
 }
 
-.recruitig {
+.recruiting {
     background-color:green; 
+}
+.mobile {
+    background-color: yellow;
+}
+.list {
+    color: black;
+    background-color: white;
+}
 
+.task {
+    background-color: aquamarine;
+    color: black;
+}
+.website {
+    background-color:pink;
+}
+.sales {
+    background-color: green;
 }

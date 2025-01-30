@@ -5,50 +5,77 @@
     box-sizing: border-box;
 }
 
-.mb-10{
-    margin-bottom: 10%;
-}
-.square{
-    width: 50px;
-    height: 50px;
-    background-color: lightblue;
-    padding: 20% 30%;
-    border: 1px solid black;
-    display: inline-block;
-    text-align: center;
+head {
+    padding: 10px 20px;
 }
 
 main {
     background-color: lightblue;
+    padding-top: 50px;
 }
 
-ul {
-    list-style: none;
-}
-
-.circle {
-    background-color: white;
-    color: green;
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    border-radius: 20%;
-}
-
-.cta-button {
-    background-color: blue;
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 16px;
-    display: inline-block;
+.chevron {
+    margin-right: 10px;
 }
 
 .container {
-    background-color: white;
-    width: 70%;
-    margin: 1% auto;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto; 
 }
+.actions-block {
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 10px 40px;
+}
+
+.todo-block {
+    background-color: white;
+}
+
+.main-list {
+    margin-bottom: 20%;
+}
+.main-list > li {
+    margin-bottom: 20%;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btn-blue {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.btn-white {
+    background-color: white;
+    border-color: lightgrey;
+}
+
+.circle.check {
+    border-color: green;
+    color: green;
+}
+.circle.cross {
+    border-color: red;
+    color: red;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 80%;
+}
+
 
 .todos {
     background-color: white;
